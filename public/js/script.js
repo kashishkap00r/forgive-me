@@ -106,9 +106,9 @@ function changeLanguage() {
     // Update question heading
     const questionHeading = document.getElementById("question-heading");
     if (language === "hindi") {
-        questionHeading.textContent = "Please maaf kardo?";
+        questionHeading.textContent = "Please maaf karde, Shreya?";
     } else {
-        questionHeading.textContent = "Please forgive me?";
+        questionHeading.textContent = "Please forgive me, Shreya?";
     }
 
     // Reset yes button text
