@@ -20,16 +20,16 @@ const answers_no = {
         "Nahi",
         "Pakka?",
         "Sach mein pakka??",
-        "Bilkul sure hai???",
-        "Ek baar aur soch le?",
-        "Second chance nahi degi?",
-        "Itna rude hoyegi ab?",
-        "Baat karke toh dekh merse?",
-        "Ab dobara nahi galti karunga!",
-        "Yaar dil se sorry hai!",
-        "Bahut bura bhi ni!",
-        "Itni badhi galti kardi :(",
-        "Please ek mauka dede!",
+        "Bilkul sure ho???",
+        "Ek baar aur soch lo?",
+        "Second chance nahi doge?",
+        "Itne rude kyun ho?",
+        "Baat karke dekh lo?",
+        "Ab dobara nahi puchunga!",
+        "Yaar dil dukhta hai!",
+        "Bahut mean ho rhe ho!",
+        "Mere saath aisa kyun?",
+        "Please ek mauka do!",
         "Haath jodta hoon!",
         "Chal fresh start karte hain.."
     ]
@@ -106,9 +106,9 @@ function changeLanguage() {
     // Update question heading
     const questionHeading = document.getElementById("question-heading");
     if (language === "hindi") {
-        questionHeading.textContent = "Please maaf karde, Shreya?";
+        questionHeading.textContent = "Shreya, please maaf kardo?";
     } else {
-        questionHeading.textContent = "Please forgive me, Shreya?";
+        questionHeading.textContent = "Shreya, please forgive me?";
     }
 
     // Reset yes button text
@@ -124,8 +124,8 @@ function changeLanguage() {
     // Update success message
     const successMessage = document.getElementById("success-message");
     if (language === "hindi") {
-        successMessage.textContent = "Thank you! Promise aage se aisa nahi hoga :3";
+        successMessage.textContent = "Thank you Shreya! Promise aage se aisa nahi hoga :3";
     } else {
-        successMessage.textContent = "Thank you! I promise to do better :3";
+        successMessage.textContent = "Thank you Shreya! I promise to do better :3";
     }
 }
